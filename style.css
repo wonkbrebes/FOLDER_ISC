@@ -39,7 +39,7 @@
     font-size: 20px;
     padding:6px 12px;
     background: #ff3de5;
-    color: #0af316;
+    color: #2ab631;
     border-radius: 8px;
     cursor:pointer;
 }
@@ -74,4 +74,22 @@
     /* background-color: #3274cc; */
     padding: 10px;
     border-radius: 30px;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content-web{
+    margin-top: 100px;
+}
+
+.content-1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
