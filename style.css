@@ -13,6 +13,7 @@
 .container{
     padding-left: 80px;
     padding-right: 80px;   
+    margin-bottom: 30px;
 }
 
 .nav{
@@ -92,4 +93,38 @@
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+
+.what{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:stretch;
+    margin-bottom: 50px;
+}
+
+.card-item{
+    /* background: aqua; */
+    text-align: center;
+    width: 20%;
+    padding : 20px;
+    align-items: stretch;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px 1px rgba(0,0,0,5);
+}
+
+.card-title{
+    /* font-size: 14px; */
+    margin-top: bolder;
+}
+
+.logo2{
+    width: 300px;
+    border-radius: 5px;
+    
 }
