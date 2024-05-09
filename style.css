@@ -12,8 +12,7 @@
 
 .container{
     padding-left: 80px;
-    padding-right: 80px;   
-    margin-bottom: 30px;
+    padding-right: 80px;
 }
 
 .nav{
@@ -30,7 +29,7 @@
 .nav a{
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    font-weight: 600px;
     margin-right: 20px;
 }
 
@@ -55,7 +54,6 @@
 .mt-10{
     margin-top: 10px;
 }
-
 
 .btn-1{
     text-decoration: none;
@@ -108,6 +106,10 @@
     margin-bottom: 50px;
 }
 
+.img-icon{
+    width: fit-content;
+}
+
 .card-item{
     /* background: aqua; */
     text-align: center;
@@ -127,4 +129,23 @@
     width: 300px;
     border-radius: 5px;
     
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 li{
+    list-style-type: none;
+}
+
+.ul{
+    list-style-type: none;
+}
+
+.footer{
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: #74cff0;
 }
